@@ -1,0 +1,28 @@
+body{
+    background-image: url(/img/Nvo\ usuario.jpg);
+    background-size: cover;
+    margin: 10px;
+    border: 10px;
+    padding: 10px;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* footer */
+footer{
+    margin: 10px;
+    border: 100px;
+    padding: 30px 100px;
+    background-color:rgb(37, 37, 37);
+    opacity: .8;
+    color: antiquewhite;
+    align-self: end;
+    width: 100%;
+}
+
+footer:hover{
+    transition: all 0.1s; 
+    background-color:rgb(0, 0, 0); 
+    cursor: auto;
+}
